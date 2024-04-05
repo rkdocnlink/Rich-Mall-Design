@@ -17,7 +17,7 @@ body {
   /* background: #232323; */
   /* background: linear-gradient(45deg, #042461 0%, rgba(225, 5, 34, 0) 70%), linear-gradient(135deg, #340447 10%, rgba(49, 5, 209, 0) 80%), linear-gradient(225deg, #0f053a 10%, rgba(10, 219, 216, 0) 80%), linear-gradient(315deg, #050813 100%, rgba(9, 245, 5, 0) 70%); */
   font-family: "Avenir Next", "Avenir", sans-serif;
-  background-image: url(/Rich-Mall-Design/assets/images/hero-bg-1.jpg);
+  background-image: url(../../assets/images/hero-bg-1.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
