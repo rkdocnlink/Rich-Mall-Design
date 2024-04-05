@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css">
+    <link rel="stylesheet" href="pasword.css">
+   
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        
+        <div  class="yowrap">
+            
+          <div class="yotitle">refer to your friends earn points </div>
+            <div class="yorefer">
+              <label for="website">Your Referral Link:</label>
+          <input type="text" id="website" value="http://www.sitepoint.com/" />
+          <button class="buttom-123123" data-copytarget="#website">copy</button>
+            </div>
+            <div class="yoshare"> <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" /><br/>
+          <div class="floating-social-bar">
+          
+          <span>Invite friends using: </span>
+          
+          <a class="fa fa-facebook facebook-share sociallink" href="https://www.facebook.com/sharer/sharer.php?u=https://www.toppersdesk.com/app&ref=wfjn"></a>
+            <a class="whatsapp-share fa fa-whatsapp sociallink" href="https://api.whatsapp.com/send?text=ToppersDesk%20app%20https%3A%2F%2Fwww.toppersdesk.com%2Fapp?ref%3Djndfejbfih"></a>
+          </div>
+            </div>
+            <div class="yotnc">
+              
+            </div>
+          </div>
+    </div>
+    <div>
+        <main mv-app="passwordToggle">
+            <meta property="isShown" content="[if(toggle mod 2, true, false)]" />
+            
+            <label>
+                <p>Password</p>
+                <input type="[if(isShown, 'text', 'password')]" class="password" value="password" />	
+            </label>
+            
+            <button class="buttom-1212" type="button" property="toggle" aria-pressed="[isShown]" aria-label="Password is [if(isShown, visible, hidden)]"
+                      class="password-[if(isShown, 'hide', 'show')]">
+                [if(isShown, Hide, Show)]
+            </button>
+            <button class="buttom-1211" >submit</button>
+        </main>
+    </div>
+    
+</body>
+<script src="https://dev.mavo.io/dist/mavo.es5.js"></script>
+<script src="pasword.js"></script>
+</html>
