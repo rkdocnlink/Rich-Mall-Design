@@ -12,13 +12,48 @@
 <!-- <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"> -->
 <link rel="stylesheet" href="verifyOTP.css">
 </head>
+<style>
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    
+  } 
+  .containers form button:hover{
+    color: #fff;
+  }
+  .containers form button {
+    width: 100%;
+    padding: 10px;
+    background: #4d0404;
+    border: 2px solid;
+    border-color: #f57575;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    .containers
+}
+.logo-svg-12{
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+.containers .logo-svg-12 img{
+width: 100%;
+height: 100%;
+position: relative;
+}
+</style>
 <body>
     <div class="containers">
+      <div class="logo-svg-12">
+        <img src="/assets/images/rich-mall-high-resolution-logo.svg" alt="">
+      </div>
         <form class="form-bg" action="" method="post">
             <h3 class="title">Sign UP</h3>
             <div class="field">
                 <label for="username">Mobile:</label>
-                <input type="text" name="username" id="username" placeholder="Enter your mobile number">
+                <input type="number" name="username" id="username" placeholder="+91 Enter your mobile number">
             </div>
               
               <!-- Modal -->
@@ -35,8 +70,7 @@
                         <!-- <form action="pasword.html" class="otp-form" name="otp-form" > -->
   
                             <div class="title">
-                              <h3>OTP VERIFICATION</h3>
-                              <p class="info">An otp has been sent to your number</p>
+                              <p class="info">Rich mall</p>
                               <p class="msg">Please enter OTP to verify</p>
                             </div>
                             <div class="otp-input-fields">
@@ -47,12 +81,12 @@
                               <input type="number" class="otp__digit otp__field__5">
                               <input type="number" class="otp__digit otp__field__6">
                             </div>
-                            <button class="buttom-121111">submit</button>
+                            <!-- <button class="buttom-121111">submit</button> -->
                            
                           <!-- </form> -->
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">verifyOTP</button>
                     </div>
                   </div>
                 </div>
@@ -65,5 +99,6 @@
         
     </div>
     <footer>Created by <a href="#">TEAM RK</a></footer>
+    <script src="verifyOTP.js"></script>
 </body>
 </html>
