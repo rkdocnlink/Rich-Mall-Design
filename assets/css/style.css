@@ -11,6 +11,7 @@ body{
     background-image: url('../../assets/images/bg5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    position: fixed;
     /* background: linear-gradient(33deg, #492155, #111, #280531, #111, #492155); */
 }
 .containers{
@@ -19,6 +20,7 @@ body{
     min-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -100px;
     padding-top: 13%;
     color: #fff;
 }
@@ -59,6 +61,7 @@ body{
 .form-bg{
     box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
     background: linear-gradient(33deg, #492155, #111, #280531, #111, #492155);
+  
 }
 
 .sign-up{
@@ -67,6 +70,7 @@ body{
 }
 .sign-up>a{
     color:#fff;
+    font-size: 20px;
 }
 .containers form .field input:hover, .containers form .field input:focus{
     border-color: #ffffff83;
@@ -111,8 +115,9 @@ body{
 footer{
     position: relative !important;
     color: #ffffff !important;
-    margin-top: 110px;
+    margin-top: 100px;
     font-size: 20px;
+   
 }
 .containers p a, footer a{
     text-decoration:none;
