@@ -1,6 +1,8 @@
 
     .modal{
-      background-image: url(https://cdn.analyticsvidhya.com/wp-content/uploads/2017/04/21211934/casino-scene.jpg);
+      background-image: url(/Rich-Mall-Design/assets/images/bg5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
 
     }
   .otp-input-fields{
